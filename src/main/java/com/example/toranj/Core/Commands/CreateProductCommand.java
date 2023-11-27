@@ -7,7 +7,6 @@ import java.math.BigDecimal;
 @Data
 @RequiredArgsConstructor
 public class CreateProductCommand implements ICommand  {
-
     private String name ;
     private BigDecimal price ;
     private int count_available;

@@ -1,9 +1,9 @@
 package com.example.toranj.DataAccess.Write;
 
-import com.example.toranj.Core.DomainObjects.Product;
+import com.example.toranj.Core.DomainObjects.Customer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ProductRepository extends CrudRepository<Product, Long> {
+public interface CustomerRepository  extends CrudRepository<Customer, Long> {
 }
