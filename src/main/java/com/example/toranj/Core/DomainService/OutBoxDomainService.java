@@ -1,7 +1,7 @@
 package com.example.toranj.Core.DomainService;
 
 import com.example.toranj.Core.Events.IEvent;
-import com.example.toranj.Core.Events.OutboxEvent;
+import com.example.toranj.Core.DomainObjects.OutboxEvent;
 import com.example.toranj.DataAccess.Write.OutboxEventRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,7 @@
-package com.example.toranj.Core.Events;
+package com.example.toranj.Core.DomainObjects;
 
 
+import com.example.toranj.Core.Events.IEvent;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -11,7 +12,7 @@ import static jakarta.persistence.GenerationType.SEQUENCE;
 @Data
 @Entity
 @Table(name = "outbox_event")
-public class OutboxEvent extends IEvent{
+public class OutboxEvent extends IEvent {
     @Id
     @SequenceGenerator(
             name = "outbox_event_sequence",

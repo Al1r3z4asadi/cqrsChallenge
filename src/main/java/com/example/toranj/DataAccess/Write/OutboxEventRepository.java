@@ -1,7 +1,6 @@
 package com.example.toranj.DataAccess.Write;
 
-import com.example.toranj.Core.DomainObjects.Product;
-import com.example.toranj.Core.Events.OutboxEvent;
+import com.example.toranj.Core.DomainObjects.OutboxEvent;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
