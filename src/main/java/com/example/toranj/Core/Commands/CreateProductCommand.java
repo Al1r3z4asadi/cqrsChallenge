@@ -10,5 +10,5 @@ public class CreateProductCommand implements ICommand  {
 
     private String name ;
     private BigDecimal price ;
-    private String count_available;
+    private int count_available;
 }

@@ -35,6 +35,9 @@ public class Product {
     private String name ;
     private int count_available ;
 
-    public Product(String name, BigDecimal price, String countAvailable) {
+    public Product(String name, BigDecimal price, int countAvailable) {
+        this.name = name ;
+        this.price = price ;
+        this.count_available = countAvailable;
     }
 }
