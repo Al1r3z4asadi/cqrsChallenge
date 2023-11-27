@@ -1,4 +1,4 @@
-package com.example.toranj.ApplicationService;
+package com.example.toranj.ApplicationService.CommandHandlers;
 
 import com.example.toranj.Core.Commands.CreateProductCommand;
 import com.example.toranj.Core.Commands.Handlers.ICommandHandler;
